@@ -1,0 +1,79 @@
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(93, 19, 212, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 50px rgba(93, 19, 212, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(93, 19, 212, 0.5);
+    }
+}
+.container {
+    position: absolute;
+    height: 200px;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(93, 19, 212, 0.5);
+    overflow: hidden;
+    animation: glow 2s infinite alternate;
+}
+.app {
+    font-size: 30px;
+    word-wrap: break-word; 
+}
+.intro{
+    font-size: 20px;
+}
+.getReady{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(93, 19, 212, 0.5);
+
+}
+.chrono {
+    margin-left: 750px;
+    font-size: 20px;
+}
+.chrono p{
+    display: inline;
+    margin: 0;
+}
+.currentKey {
+    position: absolute;
+    top: 150px; 
+    left: 20px;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
+.tryAgainButton {
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 90px;
+    height: 70px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(93, 19, 212, 0.5);
+}
+.goAgain {
+    position: absolute;
+    margin-left: -270px;
+    margin-top: 90px;
+    height: 70px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(93, 19, 212, 0.5);
+}
