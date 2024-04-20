@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Typing.css" rel="stylesheet" type="text/css">
+    <title>Typing Speed</title>
+</head>
+<body>
+    <h1>Typing Speed</h1>
+    </br>
+    <div class="chrono">
+        <p id="seconds" class="seconds" >0</p>
+        <p>:</p>
+        <p id="miliseconds" class="miliseconds" >0</p>
+    </div>
+    </br>
+    <div class="container">
+        <p id="intro" class="intro">Hi there, <br> <br> > You have sixteen seconds to correctly write the text. <br> > Correct letters will be marked with green color and the others with red color. <br> > Press the button when you are ready to begin!</p>
+        <button id="getReady" class="getReady">Press to go!</button>
+        <p id="app" class="app"></p>
+        <p id="currentKey" class="currentKey"></p>
+    </div>
+    <script src="Typing.js"></script>
+</body>
+</html>
